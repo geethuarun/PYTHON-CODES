@@ -1,0 +1,19 @@
+# def add(*args):
+#     return sum(args)
+# add=lambda *args:sum(args)
+# print(add(10,20,30))
+
+# words=["hello","hai","aabbcccdef","morning"]
+# print(max(words,key= lambda w:len(w)))
+# print(min(words,key=lambda w:len(w)))
+# print(sorted(words,key=lambda w:len(w),reverse=True))
+
+# lst=[1,56,78,2]
+# # lst.sort()
+# # print(lst)
+#  #To sort in desending order
+# print(sorted(lst,reverse=True))
+words="hello hai aabbcccdef morning"
+list=words.split()
+print(list)
+print(max(list,key=lambda w:len(w)))
